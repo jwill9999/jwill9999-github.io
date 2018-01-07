@@ -55,7 +55,7 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function() {
-  $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
+  $(".arrow").css("opacity", 1 - $(window).scrollTop() / 550);
   //250 is fade pixels
 });
 

@@ -469,6 +469,7 @@ ul.link li i.fa-phone a:visited {
 }
 
 .cover-inner {
+  position: relative;
   display: table-cell;
   vertical-align: middle;
 }
@@ -823,7 +824,7 @@ i {
 }
 
 .arrow {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 50%;
   margin-left: -20px;
@@ -917,6 +918,14 @@ button.btn:hover {
     background-size: cover;
     -o-background-size: cover;
   }
+
+  .cover-inner i.fa.fa-angle-down.fa-5x {
+    top: 10rem;
+  }
+
+  div.cover-inner.container p {
+    margin-top: 5rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -934,6 +943,10 @@ button.btn:hover {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+  }
+
+  .cover-inner i.fa.fa-angle-down.fa-5x {
+    top: 10rem;
   }
 }
 
@@ -1016,6 +1029,9 @@ h3.my-4 {
   div#projects.features-1.text-center {
     padding-top: 0px;
   }
+  .cover-inner i.fa.fa-angle-down.fa-5x {
+    top: 17rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1077,11 +1093,26 @@ h3.my-4 {
   section#skills.features-1.text-center {
     padding-bottom: 50px;
   }
+
+  .cover-inner i.fa.fa-angle-down.fa-5x {
+    top: 12rem;
+  }
+  .cover-1 {
+    color: #fff;
+    padding-top: 1rem;
+    background: url("../images/iphone5.png") no-repeat fixed center;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 }
 
 @media (max-width: 375px) {
   div.cover-inner.container p {
     padding-right: 0px;
+    margin-top: 0px;
   }
 
   .cover-1 {
@@ -1093,5 +1124,21 @@ h3.my-4 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+  }
+
+  .cover-inner i.fa.fa-angle-down.fa-5x {
+    top: 3rem;
+  }
+
+  h1.jumbotron-heading {
+    font-size: 1.8rem;
+  }
+
+  h1.jumbotron-heading em {
+    font-size: 1.5rem;
+  }
+
+  h1.jumbotron-heading strong {
+    font-size: 1.5rem;
   }
 }
