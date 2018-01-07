@@ -22,16 +22,24 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="imagesfavicon-16x16.png">
 	<link rel="manifest" href="images/manifest.json">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	  crossorigin="anonymous">
+	<!-- font-awsome cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Internal stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- fonts import -->
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i"
 	  rel="stylesheet">
 </head>
 
 <body id="home">
 
-	<section class="cover-1 text-center img-fluid ">
+	<section class="cover-1 text-center img-fluid " style="position: relative">
+
+		<!-- Navigation section Responsive -->
 		<nav class="navbar navbar-expand-lg bg-black navbar-dark navbar-custom fixed-top ">
 			<div class="container">
 				<a class="navbar-brand scroll" href="#home">LetUsCode</a>
@@ -71,7 +79,9 @@
 		<div class="cover-container pb-5">
 			<div class="cover-inner container">
 				<h1 class="jumbotron-heading">Jason Williams
+					<br>
 					<em>LetUsCode.co.uk</em>
+					<br>
 					<strong>Web Developer</strong>
 				</h1>
 
@@ -84,13 +94,13 @@
 						<i class="fa fa-download ml-1" aria-hidden="true"></i>
 					</a>
 				</p>
-			</div>
 
+				<div class=" col-xs-12 bounce arrow  ">
+					<i class="fa fa-angle-down fa-5x " aria-hidden="true "></i>
+				</div>
+			</div>
 		</div>
-		<div id="arrowBounce" class="arrow bounce">
-			<i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
-		</div>
-		</div>
+
 
 	</section>
 
@@ -350,9 +360,8 @@
 				<div class="col-xs-12 justify-center bounce m-auto ">
 					<i class="fa fa-angle-down fa-5x " aria-hidden="true "></i>
 				</div>
-
-
 			</div>
+		</div>
 		</div>
 
 
@@ -585,11 +594,12 @@
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		  crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js " integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4 "
-		  crossorigin="anonymous "></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb "
 		  crossorigin="anonymous "></script>
-		<script src="bootstrap/js/bootstrap.min.js "></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+		  crossorigin="anonymous"></script>
 		<script src="./js/main.js "></script>
 		<script>
 			$("#myModal").on("shown.bs.modal", function () {
