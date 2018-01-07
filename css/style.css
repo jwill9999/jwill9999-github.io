@@ -386,6 +386,12 @@ li.nav-item .btn-white {
   padding-left: 0px;
 }
 
+.mybtn {
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+}
+
 .link,
 .contactIcons {
   text-decoration: none;
@@ -844,6 +850,10 @@ i {
   margin-top: 0.5rem;
 }
 
+div.col-md-6.col-lg-4.mt-5 {
+  margin-top: 0px !important;
+}
+
 /* Project Gallery*/
 
 .placeholders {
@@ -884,13 +894,13 @@ i {
   padding-top: 0.4rem;
 }
 
+div.col-md-6.col-lg-4.mt-5 div.card {
+  margin-top: 1rem;
+}
+
 .projects {
   margin: 0px auto;
 }
-
-/* .card {
-  min-height: 447px;
-} */
 
 button.btn:hover {
   cursor: pointer;
@@ -992,7 +1002,7 @@ h3.my-4 {
     font-size: 2rem;
   }
   p.card-text {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   div.col-lg-4 div.card {
     margin: 2rem auto;
@@ -1035,6 +1045,16 @@ h3.my-4 {
   }
 }
 
+@media (max-width: 484px) {
+  .btn-lg {
+    padding: 1.1rem 2.5rem;
+    font-size: 0.7rem;
+  }
+  p.card-text {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 420px) {
   div.cover-inner.container p {
     padding-right: 0px;
@@ -1048,6 +1068,14 @@ h3.my-4 {
   }
   ul.link {
     margin-left: 0px;
+  }
+  .btn-lg {
+    padding: 1.1rem 2.5rem;
+    font-size: 0.6rem;
+  }
+
+  section#skills.features-1.text-center {
+    padding-bottom: 50px;
   }
 }
 
