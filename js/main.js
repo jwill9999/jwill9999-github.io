@@ -1,3 +1,6 @@
+/* Scroll functions for smooth scrolling
+and link spy auto link activator */
+
 $(document).ready(function() {
   var scrollLink = $(".scroll");
   // Smooth scrolling
@@ -31,10 +34,10 @@ $(document).ready(function() {
   });
 });
 
+/* Javascript for image labels on projects when hovering
+with fade in out  */
 $(document).ready(function() {
   let image = document.querySelectorAll("img.img-fluid.pt-3.placeholders");
-
-  console.log(image);
 
   image.forEach(img => {
     img.addEventListener("mouseover", img => {
@@ -54,11 +57,13 @@ $(document).ready(function() {
   });
 });
 
+/* Javascript to fade bouncing arrows out on scroll from top */
 $(window).scroll(function() {
   $(".arrow").css("opacity", 1 - $(window).scrollTop() / 550);
   //250 is fade pixels
 });
 
+/* Javascript date function to insert date year in footer */
 let d = new Date();
 document.getElementById("date").innerHTML = d.getFullYear();
 

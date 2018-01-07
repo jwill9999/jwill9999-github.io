@@ -1,7 +1,7 @@
 {
   "name": "jwill9999",
   "version": "1.0.0",
-  "description": "personal website",
+  "description": "Business website for letuscode.co.uk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/jwill9999/jwill9999.github.io.git"
   },
-  "author": "jason williams",
+  "author": {
+    "name": "Jason Williams",
+    "email": "jasonwilliams@letuscode.co.uk"
+  },
+  "keywords": ["Javascript", " bootstrap", "jquery", "landing-page"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jwill9999/jwill9999-github.io/issues"
