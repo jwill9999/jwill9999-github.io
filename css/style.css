@@ -1069,6 +1069,16 @@ h3.my-4 {
   p.card-text {
     font-size: 1rem;
   }
+  .cover-1 {
+    color: #fff;
+    padding-top: 1rem;
+    background: url("../images/iphone5.png") no-repeat fixed center;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 }
 
 @media (max-width: 420px) {
